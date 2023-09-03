@@ -1,0 +1,273 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    background-image: url('background-header.avif'); /* Replace with your coffee image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding for smaller header */
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 30px; /* Adjust logo height for smaller header */
+    width: auto;
+    margin-right: 10px;
+}
+
+.brand {
+    font-size: 18px; /* Adjust font size for smaller header */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #F8F8F8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-image-container {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    margin-bottom: 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.thumbnail-images {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail-image {
+    cursor: pointer;
+    width: 80px; /* Adjust width as needed */
+    height: auto;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    border-radius: 5px;
+}
+
+.thumbnail-image:hover {
+    border-color: #6F4E37; /* Change to your desired hover color */
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 15px; /* Increase horizontal padding for mobile spacing */
+}
+/* CTA Button styling */
+
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add margin for separation on mobile */
+}
+
+.product-details {
+    padding: 0 15px; /* Adjust padding for better mobile spacing */
+}
+
+.product-details h2 {
+    font-size: 24px; /* Slightly reduce font size for better mobile appearance */
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px; /* Adjust font size for better mobile appearance */
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px; /* Adjust font size for better mobile appearance */
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* Contact section styling */
+.contact-section {
+    text-align: center;
+    padding: 40px 0; /* Adjust padding for better mobile spacing */
+}
+
+
+.fa {
+    font-size: 24px; /* Adjust font size for better mobile appearance */
+    width: 30px;
+    height: 30px;
+    line-height: 30px; /* Center vertically */
+    margin: 10px 10px; /* Adjust margins for better mobile spacing */
+    border-radius: 50%;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .thumbnail-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .thumbnail-image {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Adjust padding for better mobile spacing */
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e76f51;
+}
+
+.shipping-info-container {
+    display: flex;
+    align-items: center;
+    color: #777;
+}
+
+.shipping-icon {
+    width: 35px;
+    height: 25px;
+    }
+
+.shipping-info {
+    font-size: 12px;
+}
+
+/* Order Button styling */
+.order-button {
+    display: inline-block;
+    background-color: #e76f51;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.order-button:hover {
+    background-color: #d45c3e;
+}
+
+.order-button:active {
+    transform: scale(0.95);
+}
+
+.social-icon {
+    width: auto;
+    height: 30px;
+    margin: 10px 10px; /* Adjust margins for better mobile spacing */
+    border-radius: 50%;
+}
+
+/* Add some spacing around the form */
+form {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  /* Larger container for name and phone number fields */
+  .name-phone-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  /* Style for submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
