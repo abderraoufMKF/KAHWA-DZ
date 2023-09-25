@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mini Espresso Machine</title>
+  <meta name="description" content="Discover the finest mini espresso machines at Kahwa DZ. Experience barista-quality espresso at home.">
+  <meta name="keywords" content="espresso machines, coffee, barista, home brewing, coffee lovers">
+  <meta name="author" content="Kahwa DZ">
+  <title>Kahwa DZ - Mini Espresso Machines</title>
+    
     
 </head>
 <body>
@@ -44,37 +46,65 @@
       </div>
      
       
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSerfGDo9S357Lx3Ki2BTRGcJjxrC3I9fFEVTF78iJzIsNDyJQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-        <div class="name-phone-container">
-          <div>
-            <label for="entry.1234567890">First Name:</label>
-            <input type="text" id="entry.1234567890" name="entry.1234567890" required>
-          </div>
-          <div>
-            <label for="entry.9876543210">Last Name:</label>
-            <input type="text" id="entry.9876543210" name="entry.9876543210" required>
-          </div>
-          <div>
-            <label for="entry.1357924680">Phone Number:</label>
-            <input type="tel" id="entry.1357924680" name="entry.1357924680" required>
-          </div>
-          <div>
-            <label for="entry.2468135790">State:</label>
-            <input type="text" id="entry.2468135790" name="entry.2468135790" required>
-          </div>
-          <div>
-            <label for="entry.8642097531">Address:</label>
-            <input type="text" id="entry.8642097531" name="entry.8642097531" required>
-          </div>
+    <!-- Your custom form -->
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSerfGDo9S357Lx3Ki2BTRGcJjxrC3I9fFEVTF78iJzIsNDyJQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true">
+      <div class="name-phone-container">
+        <div>
+          <label for="entry.9876543210" class="arabic-label">:اللقب</label>
+          <input type="text" id="entry.9876543210" name="entry.9876543210" required>
         </div>
-        <button type="submit">Submit</button>
-      </form>
+        <div>
+            <label for="entry.1234567890" class="arabic-label">:الإسم</label>
+            <input type="text" id="entry.1234567890" name="entry.1234567890" required>
+        </div>
+        <div>
+          <label for="entry.2468135790" class="arabic-label">:الولاية</label>
+          <input type="text" id="entry.2468135790" name="entry.2468135790" required>
+          <div>
+              <label for="entry.1357924680" class="arabic-label">:رقم الهاتف</label>
+              <input type="tel" id="entry.1357924680" name="entry.1357924680" required>
+          </div>
+          </div>
+          <div>
+              <label for="entry.8642097531" class="arabic-label">:البلدية</label>
+              <input type="text" id="entry.8642097531" name="entry.8642097531" required>
+          </div>
+      </div>
+      <button type="submit">Submit</button>
+  
+      <section id="how-to-use">
+        <div class="container">
+          <h2 class="section-title">كيفية الاستخدام</h2>
+          <p class="section-description">:اتبع هذه الخطوات لاستخدام آلة الإسبريسو الصغيرة</p>
+          <ul class="instructions">
+            <li>1. افتح الغطاء العلوي للآلة</li>
+            
+            <!-- Step 2 with an image -->
+            <li>
+              2. قم بإضافة القهوة المطحونة إلى القسم المخصص.
+              <img src="put-coffee.jpg" alt="Coffee Grind" width="200">
+            </li>
+            
+            <li>3. أغلق الغطاء العلوي بإحكام.</li>
+            
+            <!-- Step 4 with an image -->
+            <li>
+              4. املأ خزان الماء بالماء النقي.
+              <img src="water.jpg" alt="Water Tank" width="200">
+            </li>
+            
+            <!-- Step 5 with an image -->
+            <li>
+              5. قم بالضفط على اليد الجانبية لعدة مرات و ستكون قهوتك كاملة .
+              <img src="press.jpg" alt="Espresso Machine" width="200">
+            </li>
+            
+            <li>6. استمتع بقهوة لذيذة و منعشة!</li>
+          </ul>
+        </div>
+      </section>
       
-      <!-- This hidden iframe is used to submit the form without redirecting the main page -->
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='thank-you.html'; }"></iframe>
       
-    
-
       
     </section>
     
@@ -92,3 +122,4 @@
   
 </body>
 </html>
+
